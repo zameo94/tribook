@@ -6,3 +6,6 @@ class Tribook_Blog_Model_Resource_Post_Collection extends Mage_Eav_Model_Entity_
         $this->_init('tribook_blog/post');
     }
 }
+
+
+

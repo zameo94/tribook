@@ -1,7 +1,4 @@
 # Blog Tribook
 
-## Branch feature/zameo-1
-
-### Log function
-In the branch feature/zameo-1 there's a 
-log function in the helper Data.php
+## 0.1.1 - 27.03.2019
+- First release of the module tutorial
