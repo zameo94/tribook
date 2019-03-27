@@ -8,9 +8,9 @@
                         <children>
                             <config>
                                 <children>
-                                    <tribook_blog>
+                                    <tb_blog>
                                         <title>Tribook</title>
-                                    </tribook_blog>
+                                    </tb_blog>
                                 </children>
                             </config>
                         </children>

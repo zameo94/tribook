@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Tribook_Blog>
+        <TbBlog>
             <version>0.1.1</version>
-        </Tribook_Blog>
+        </TbBlog>
     </modules>
     <global>
         <blocks>
-            <tribook_blog>
+            <tbblog>
                 <class>Tribook_Blog_Block</class>
-            </tribook_blog>
+            </tbblog>
         </blocks>
         <helpers>
-            <tribook_blog>
+            <tbblog>
                 <class>Tribook_Blog_Helper</class>
-            </tribook_blog>
+            </tbblog>
         </helpers>
         <models>
-            <tribook_blog>
+            <tbblog>
                 <class>Tribook_Blog_Model</class>
                 <resourceModel>tribook_blog_resource</resourceModel>
-            </tribook_blog>
-            <tribook_blog_resource>
+            </tbblog>
+            <tbblog_resource>
                 <class>Tribook_Blog_Model_Resource</class>
                 <entities>
                     <post_entity>
@@ -46,10 +46,10 @@
                         <table>tribook_blog_post_entity_char</table>
                     </post_entity_char>
                 </entities>
-            </tribook_blog_resource>
+            </tbblog_resource>
         </models>
         <resources>
-            <tribook_blog_setup>
+            <tbblog_setup>
                 <setup>
                     <module>Tribook_Blog</module>
                     <class>Tribook_Blog_Model_Resource_Setup</class>
@@ -57,7 +57,7 @@
                 <connection>
                     <use>core_setup</use>
                 </connection>
-            </tribook_blog_setup>
+            </tbblog_setup>
             <blog_write>
                 <connection>
                     <use>core_write</use>
@@ -72,13 +72,13 @@
     </global>
     <frontend>
         <routers>
-            <tribook_blog>
+            <tbblog>
                 <use>standard</use>
                 <args>
                     <module>Tribook_Blog</module>
                     <frontName>blog</frontName>
                 </args>
-            </tribook_blog>
+            </tbblog>
         </routers>
     </frontend>
 </config>

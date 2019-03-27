@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <tribook_tab translate="label" module="tribook_blog">
+        <tb_tab translate="label" module="tribook_blog">
             <label>Log configuration</label>
             <sort_order>99999</sort_order>
-        </tribook_tab>
+        </tb_tab>
     </tabs>
     <sections>
-        <tribook_blog translate="label" module="tribook_blog">
+        <tb_blog translate="label" module="tribook_blog">
             <label>Blog</label>
             <tab>tribook_tab</tab>
             <sort_order>1000</sort_order>
@@ -35,6 +35,6 @@
                     </fields>
                 </log>
             </groups>
-        </tribook_blog>
+        </tb_blog>
     </sections>
 </config>

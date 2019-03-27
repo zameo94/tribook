@@ -1,8 +1,10 @@
 <?php
 $installer = $this;
 $installer->startSetup();
-
-$installer->addAttribute('tribook_blog_post', 'enable', array(
+/**
+ * Adding new attribute "enable"
+ */
+$installer->addAttribute(Tribook_Blog_Helper_Config::ENTITY_TYPE_CODE_POST , 'enable', [
         'type'              => 'int',
         'label'             => 'enable',
         'input'             => 'boolean',
@@ -18,9 +20,12 @@ $installer->addAttribute('tribook_blog_post', 'enable', array(
         'comparable'        => false,
         'visible_on_front'  => true,
         'unique'            => false,
-    )
+        ]
 );
-$installer->addAttribute('tribook_blog_post', 'description', array(
+/**
+ * Adding new attribute "description"
+ */
+$installer->addAttribute(Tribook_Blog_Helper_Config::ENTITY_TYPE_CODE_POST , 'description', [
         'type'              => 'varchar',
         'label'             => 'description',
         'input'             => 'text',
@@ -36,6 +41,6 @@ $installer->addAttribute('tribook_blog_post', 'description', array(
         'comparable'        => false,
         'visible_on_front'  => true,
         'unique'            => false,
-    )
+        ]
 );
 $installer -> endSetup();

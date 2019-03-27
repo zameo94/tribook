@@ -5,13 +5,9 @@
 class Tribook_Blog_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
-     * @var string
+     * @const string
      */
     const LOG_FILE = 'tribookBlog.log';
-    /**
-     *  @var string
-     */
-    const LOG_ENABLE_CONFIG = 'tribook_blog/log/enable';
     /**
      * @var bool
      */
@@ -22,11 +18,10 @@ class Tribook_Blog_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function __construct()
     {
-        $this->isLogEnable = Mage::getStoreConfig(self::LOG_ENABLE_CONFIG) ?: false;
+        $this->isLogEnable = Mage::getStoreConfig(Tribook_Blog_Helper_Config::LOG_ENABLE_CONFIG) ?: false;
     }
-
     /**
-     * @param $message
+     * @var $message
      * @return string
      */
     public function log($message)
