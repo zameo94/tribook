@@ -1,0 +1,12 @@
+{
+  "name": "luxifel/tribook",
+  "type": "magento-module",
+  "license": "public",
+  "author": "Matteo Deliperi, Franco Vitelli",
+  "description": "Blog triboo",
+  "require":
+  {
+    "php": ">=7.0",
+    "magento-hackathon/magento-composer-installer":"~3.1"
+  }
+}
