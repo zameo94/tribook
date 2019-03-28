@@ -8,9 +8,12 @@
                         <children>
                             <config>
                                 <children>
-                                    <tribook_blog>
-                                        <title>Tribook</title>
-                                    </tribook_blog>
+                                    <tbblog>
+                                        <title>Triboo blog</title>
+                                    </tbblog>
+                                    <tblog>
+                                        <title>Triboo log</title>
+                                    </tblog>
                                 </children>
                             </config>
                         </children>

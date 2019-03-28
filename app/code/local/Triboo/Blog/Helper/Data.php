@@ -1,35 +1,30 @@
 <?php
 /**
- * Class Tribook_Blog_Helper_Data
+ * Class Triboo_Blog_Helper_Data
  */
 class Tribook_Blog_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
-     * @var string
+     * log file
      */
-    const LOG_FILE = 'tribookBlog.log';
-    /**
-     *  @var string
-     */
-    const LOG_ENABLE_CONFIG = 'tribook_blog/log/enable';
+    const LOG_FILE = 'tribooBlog.log';
     /**
      * @var bool
      */
     protected $isLogEnable;
 
     /**
-     * Tribook_Blog_Helper_Data constructor.
+     * Triboo_Blog_Helper_Data constructor.
      */
     public function __construct()
     {
-        $this->isLogEnable = Mage::getStoreConfig(self::LOG_ENABLE_CONFIG) ?: false;
+        $this->isLogEnable = Mage::getStoreConfig(Triboo_Blog_Helper_Config::LOG_ENABLE_CONFIG) ?: false;
     }
-
     /**
-     * @param $message
+     * @var $message
      * @return string
      */
-    public function log($message)
+    public function log($message) : string
     {
         if ($this->isLogEnable)
         {
