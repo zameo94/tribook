@@ -3,7 +3,7 @@
     <tabs>
         <tb_tab translate="label" module="tbblog">
             <label>Triboo Blog</label>
-            <sort_order>1</sort_order>
+            <sort_order>10</sort_order>
         </tb_tab>
     </tabs>
     <sections>
