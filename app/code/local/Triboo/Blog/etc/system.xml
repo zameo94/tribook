@@ -7,38 +7,8 @@
         </tb_tab>
     </tabs>
     <sections>
-        <!--Start post configuration-->
-        <tbblog translate="label" module="tbblog">
-            <label>Post Configuration</label>
-            <tab>tb_tab</tab>
-            <sort_order>1</sort_order>
-            <show_in_default>1</show_in_default>
-            <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
-            <groups>
-                <log translate="label">
-                    <label>Post manager</label>
-                    <frontend_type>text</frontend_type>
-                    <sort_order>1</sort_order>
-                    <show_in_default>1</show_in_default>
-                    <show_in_website>1</show_in_website>
-                    <show_in_store>1</show_in_store>
-                    <fields>
-                        <enable translate="label">
-                            <label>Write the content here:</label>
-                            <frontend_type>textarea</frontend_type>
-                            <sort_order>1</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                        </enable>
-                    </fields>
-                </log>
-            </groups>
-        </tbblog>
-        <!--End post configuration-->
         <!--Start log configuration-->
-        <tblog translate="label" module="tbblog">
+        <tbblog translate="label" module="tbblog">
             <label>Log Configuration</label>
             <tab>tb_tab</tab>
             <sort_order>2</sort_order>
@@ -66,7 +36,7 @@
                     </fields>
                 </log>
             </groups>
-        </tblog>
+        </tbblog>
         <!--End log configuration-->
     </sections>
 </config>

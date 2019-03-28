@@ -9,15 +9,24 @@
                             <config>
                                 <children>
                                     <tbblog>
-                                        <title>Triboo blog</title>
-                                    </tbblog>
-                                    <tblog>
                                         <title>Triboo log</title>
-                                    </tblog>
+                                    </tbblog>
                                 </children>
                             </config>
                         </children>
                     </system>
+                    <!--Start Blog admin-->
+                    <tbblog translate="title" module="tbblog">
+                        <title>Blog</title>
+                        <sort_order>250</sort_order>
+                        <children>
+                            <manage>
+                                <title>Manage Posts</title>
+                                <sort_order>1</sort_order>
+                            </manage>
+                        </children>
+                    </tbblog>
+                    <!--End Blog admin-->
                 </children>
             </admin>
         </resources>
