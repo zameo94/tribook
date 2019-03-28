@@ -1,4 +1,5 @@
 <?php
+
 class Tribook_Blog_IndexController extends Mage_Core_Controller_Front_Action
 {
     public function indexAction()
@@ -29,7 +30,7 @@ class Tribook_Blog_IndexController extends Mage_Core_Controller_Front_Action
         /*
          * Getting post collection
          * -load all posts
-         * -set attributs to be in collection data
+         * -set attributes to be in collection data
          */
         $posts = Mage::getModel('tribook_blog/post')->getCollection()
             ->addAttributeToSelect('title')
