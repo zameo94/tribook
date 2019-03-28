@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <tb_tab translate="label" module="triboo_blog">
+        <tb_tab translate="label" module="tbblog">
             <label>Triboo Blog</label>
             <sort_order>1</sort_order>
         </tb_tab>
     </tabs>
     <sections>
         <!--Start post configuration-->
-        <tbblog translate="label" module="triboo_blog">
+        <tbblog translate="label" module="tbblog">
             <label>Post Configuration</label>
             <tab>tb_tab</tab>
             <sort_order>1</sort_order>
@@ -38,7 +38,7 @@
         </tbblog>
         <!--End post configuration-->
         <!--Start log configuration-->
-        <tblog translate="label" module="triboo_blog">
+        <tblog translate="label" module="tbblog">
             <label>Log Configuration</label>
             <tab>tb_tab</tab>
             <sort_order>2</sort_order>
