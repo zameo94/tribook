@@ -2,7 +2,7 @@
 /**
  * Class Triboo_Blog_Helper_Data
  */
-class Tribook_Blog_Helper_Data extends Mage_Core_Helper_Abstract
+class Triboo_Blog_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
      * log file
