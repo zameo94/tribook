@@ -9,11 +9,8 @@
                             <config>
                                 <children>
                                     <tbblog>
-                                        <title>Triboo blog</title>
-                                    </tbblog>
-                                    <tblog>
                                         <title>Triboo log</title>
-                                    </tblog>
+                                    </tbblog>
                                 </children>
                             </config>
                         </children>
