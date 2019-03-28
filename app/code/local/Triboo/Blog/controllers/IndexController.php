@@ -46,5 +46,21 @@ class Tribook_Blog_IndexController extends Mage_Core_Controller_Front_Action
          */
         $post = Mage::getModel('tribook_blog/post')->load(1);
         var_dump($post);
+
+        /*
+         * For adminhtml menù
+         * load the layout
+         */
+        $this->loadLayout();
+
+        /*
+         * add content
+         */
+        $this->addContent($this->getLayout()->createBlock('core/template'));
+
+        /*
+         * output display
+         */
+        $this->renderLayout();
     }
 }

@@ -81,4 +81,15 @@
             </tbblog>
         </routers>
     </frontend>
+    <admin>
+        <routers>
+            <tbblog>
+                <use>admin</use>
+                <args>
+                    <module>Triboo_Blog</module>
+                    <frontname>blog</frontname>
+                </args>
+            </tbblog>
+        </routers>
+    </admin>
 </config>

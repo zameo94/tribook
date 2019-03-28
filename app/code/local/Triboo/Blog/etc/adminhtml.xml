@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <config>
+    <menu>
+        <!--Start Blog admin-->
+        <tbblog translate="title" module="tbblog">
+            <title>Blog</title>
+            <sort_order>1</sort_order>
+            <children>
+                <manage module="tbblog">
+                    <title>Manage Posts</title>
+                    <action></action>
+                </manage>
+            </children>
+        </tbblog>
+        <!--End Blog admin-->
+    </menu>
     <acl>
         <resources>
             <admin>
@@ -22,7 +36,6 @@
                         <children>
                             <manage>
                                 <title>Manage Posts</title>
-                                <sort_order>1</sort_order>
                             </manage>
                         </children>
                     </tbblog>
