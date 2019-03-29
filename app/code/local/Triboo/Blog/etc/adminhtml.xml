@@ -8,7 +8,7 @@
             <children>
                 <manage module="tbblog">
                     <title>Manage Posts</title>
-                    <!--action></action-->
+                    <action>adminhtml/post</action>
                 </manage>
             </children>
         </tbblog>
