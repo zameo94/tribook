@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Class Triboo_Blog_Block_Adminhtml_Grid
+ * Class Triboo_Blog_Block_Adminhtml_Post
  */
-class Triboo_Blog_Block_Adminhtml_Grid extends Mage_Adminhtml_Block_Widget_Grid_Container
+class Triboo_Blog_Block_Adminhtml_Post extends Mage_Adminhtml_Block_Widget_Grid_Container
 {
     /**
-     * Triboo_Blog_Block_Adminhtml_Grid constructor.
+     * Triboo_Blog_Block_Adminhtml_Post constructor.
      * @var _controller
      * @var _blockGroup
      * @var _headerText
