@@ -15,8 +15,8 @@ class Triboo_Blog_Block_Adminhtml_Grid extends Mage_Adminhtml_Block_Widget_Grid_
     public function __construct()
     {
         #where you can find the controller
-        $this->_controller = 'triboo_blog';
-        $this->_blockGroup = 'blog';
+        $this->_controller = 'adminhtml_post';
+        $this->_blockGroup = 'tbblog';
         #header text label
         $this->_headerText = 'Manage the posts';
         #button label

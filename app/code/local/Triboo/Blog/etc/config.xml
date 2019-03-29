@@ -83,13 +83,14 @@
     </frontend>
     <admin>
         <routers>
-            <tbblog>
+            <adminhtml>
                 <use>admin</use>
                 <args>
-                    <module>Triboo_Blog</module>
-                    <frontname>blog</frontname>
+                    <modules>
+                        <Triboo_Blog>Triboo_Blog_Adminhtml</Triboo_Blog>
+                    </modules>
                 </args>
-            </tbblog>
+            </adminhtml>
         </routers>
     </admin>
 </config>
