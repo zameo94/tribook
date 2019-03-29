@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Class Triboo_Blog_Adminhtml_PostController
  */
@@ -14,18 +16,22 @@ class Triboo_Blog_Adminhtml_PostController extends Mage_Adminhtml_Controller_Act
         /*
          * For adminhtml menù
          * load the layout
-
+         */
         $this->loadLayout();
-
         /*
-         * add content
-
-        $this->addContent($this->getLayout()->createBlock('core/template'));
-
-        /*
-         * output display
-         *
+         * output layout
+         */
         $this->renderLayout();
-        */
+    }
+
+    /**
+     *
+     */
+    public function gridAction()
+    {
+        $this->loadLayout()
+            ->getresponse()->setBody(
+                $this->getLayout()->createBlock('blog/adminhtml_post_grid')->toHtml()
+            );
     }
 }
